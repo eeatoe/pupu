@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pupu</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= yield :head %>
+
+  <%= stylesheet_link_tag "pupu", "data-turbo-track": "reload" %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
